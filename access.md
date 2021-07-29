@@ -6,10 +6,8 @@ permalink: /access/
 
 Le cabinet se trouve à l'adresse suivante:
 
-Rue des Guéries 131,
-
-1201 Genève,
-
+Rue des Guéries 131, \
+1201 Genève, \
 Suisse
 
 Instructions:
