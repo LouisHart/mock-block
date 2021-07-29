@@ -25,9 +25,12 @@ url: "https://louishart.github.io" # the base hostname & protocol for your site,
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: vszhub/not-pure-poole
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
