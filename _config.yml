@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cabinet Estrabaud
+title: Cabinet Roudier
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-        Docteur Estrabaud propose ses services spécialistes,
-        si vous êtes gentils vous aurez peut-être une sucette à la fin
+        Docteur Roudier propose ses services de médecine spécialiste,
+        si vous êtes sages vous allez guérir
 baseurl: "/mock-block/" # the subpath of your site, e.g. /blog
 url: "https://louishart.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
