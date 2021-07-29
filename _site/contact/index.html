@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="/mock-block/assets/styles.css"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Contact | Cabinet Estrabaud</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Contact" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Docteur Estrabaud propose ses services spécialistes, si vous êtes gentils vous aurez peut-être une sucette à la fin" />
+<meta property="og:description" content="Docteur Estrabaud propose ses services spécialistes, si vous êtes gentils vous aurez peut-être une sucette à la fin" />
+<link rel="canonical" href="http://localhost:4000/mock-block/contact/" />
+<meta property="og:url" content="http://localhost:4000/mock-block/contact/" />
+<meta property="og:site_name" content="Cabinet Estrabaud" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Contact" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/mock-block/contact/","headline":"Contact","@type":"WebPage","description":"Docteur Estrabaud propose ses services spécialistes, si vous êtes gentils vous aurez peut-être une sucette à la fin","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/mock-block/feed.xml" title="Cabinet Estrabaud" />
+</head>
+
+
+  <body>
+
+    <div class="container pure-g"><div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: rgb(40, 73, 77); color: rgb(255, 255, 255); background-image: url(/mock-block/geneva.jpg);"><header class="masthead">
+  
+  <div class="masthead-title">
+    <a href="/mock-block/" title="Home">Cabinet Estrabaud</a>
+  </div>
+  <div class="masthead-tagline">
+    <small>Docteur Estrabaud propose ses services spécialistes, si vous êtes gentils vous aurez peut-être une sucette à la fin</small>
+  </div><nav class="navigation">
+    <ul class="navigation-list"><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/mock-block/">Acceuil</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/mock-block/about/">A propos</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/mock-block/access/">Accès</a>
+      </li><li class="navigation-item">
+        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="/mock-block/contact/">Contact</a>
+      </li></ul>
+  </nav>
+</header>
+</div>
+
+      <div class="content pure-u-1 pure-u-md-1-2"><main>
+  <article class="page">
+  <h1 class="page-title">Contact</h1>
+  <p>Vous pouvez nous contacter aux endroits suivants:</p>
+<ul>
+  <li>Adresse mail: asdf@example.com</li>
+  <li>Telephone: 00 00 00 00 00</li>
+</ul>
+
+</article>
+
+</main>
+
+<footer class="footer"><small>
+    &copy;  . All rights reserved.
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/vszhub/not-pure-poole">Not Pure Poole</a>.
+  </small>
+</footer>
+</div>
+      <div class="sidebar-right pure-u-1 pure-u-md-1-4">
+</div>
+    </div>
+
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script><script>
+  function strip(str, remove) {
+    while (str.length > 0 && remove.indexOf(str.charAt(0)) != -1) {
+      str = str.substr(1);
+    }
+    while (str.length > 0 && remove.indexOf(str.charAt(str.length - 1)) != -1) {
+      str = str.substr(0, str.length - 1);
+    }
+    return str;
+  }
+
+  function scroll() {
+    console.log('scroll');
+    window.scrollTo({
+      left: 0, 
+      top: window.innerHeight,
+      behavior: 'smooth'
+    });
+    sessionStorage.removeItem('forceCheckScroll');
+  }
+
+  const forceCheckScroll = sessionStorage.getItem('forceCheckScroll') === 'true';
+  const checkScroll = strip(window.location.pathname, '/') !== strip('/mock-block/', '/');
+
+  if (forceCheckScroll || checkScroll) {
+    const maxWidth = "(max-width: 48rem)";
+    const result = window.matchMedia(maxWidth);
+    if (result.matches) {
+      scroll();
+    } else {
+      result.addListener((match) => {
+        if (match.media == maxWidth) {
+          if (match.matches) {
+            scroll();
+          }
+        }
+      });
+    }
+  }
+</script>
+</body>
+</html>

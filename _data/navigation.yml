@@ -1,4 +1,8 @@
-- title: Blog
+- title: Acceuil
   url: /
-- title: About
+- title: A propos
   url: /about/
+- title: Accès
+  url: /access/
+- title: Contact
+  url: /contact/
